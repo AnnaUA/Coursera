@@ -15,21 +15,35 @@ h1{
 }
 .row{
   width: 100%;
-  border: 3px solid black;
   background: #00ff00;
 }
 .chicken, .beef, .sushi{
-    padding: 5px;
     width: 33.33%;
+    padding: 10px;
     border: 2px solid black;
-    background: #b1b0b0;
+    background: #fff;
     float: left;
     position: relative;
   }
   .tmp-clear{
   	clear: both;
   }
-  .chicken>p{
+  .chicken>div{
+  	background: red;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+  .beef>div{
+  	background: red;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+  .sushi>div{
+  	background: red;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+/*   .chicken>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -70,11 +84,10 @@ h1{
   }
   article{
   	clear: both;
-  }
+  } */
 
-@media (min-width: 992px){
+/* @media (min-width: 992px){
   .chicken, .beef, .sushi{
-    padding: 5px;
     width: 33.33%;
     border: 2px solid black;
     background: #b1b0b0;
@@ -127,12 +140,11 @@ h1{
   	clear: both;
   }
 
-}
+} */
 
 /* medium query */
-@media (min-width: 768px) and (max-width: 991px) {
+/* @media (min-width: 768px) and (max-width: 991px) {
   .chicken, .beef{
-    padding: 5px;
     width: 50%;
     border: 2px solid black;
     background: #b1b0b0;
@@ -140,7 +152,6 @@ h1{
     position: relative;
   }
   .sushi{
-    padding: 5px;
     width: 100%;
     border: 2px solid black;
     background: #b1b0b0;
@@ -194,12 +205,11 @@ h1{
   	clear: both;
   }
 	
-}
+} */
 
 /* small query */
-@media (max-width: 767px){
+/* @media (max-width: 767px){
   .chicken, .beef, .sushi{
-    padding: 5px;
     width: 100%;
     border: 2px solid black;
     background: #b1b0b0;
@@ -252,4 +262,4 @@ h1{
   	clear: both;
   }
 	
-}
+} */
