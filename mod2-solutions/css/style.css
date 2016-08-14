@@ -15,12 +15,11 @@ h1{
 }
 .row{
   width: 100%;
-  background: #00ff00;
+  margin-top: 30px;
 }
 .chicken, .beef, .sushi{
     width: 33.33%;
     padding: 10px;
-    border: 2px solid black;
     background: #fff;
     float: left;
     position: relative;
@@ -29,21 +28,21 @@ h1{
   	clear: both;
   }
   .chicken>div{
-  	background: red;
+  	background: #b4b4b4;
   	padding: 10px;
   	border: 2px solid black;
   }
   .beef>div{
-  	background: red;
+  	background: #b4b4b4;
   	padding: 10px;
   	border: 2px solid black;
   }
   .sushi>div{
-  	background: red;
+  	background: #b4b4b4;
   	padding: 10px;
   	border: 2px solid black;
   }
-/*   .chicken>p{
+   .chicken div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -53,10 +52,10 @@ h1{
   	text-align: center;
   	font-weight: bold;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
-  .beef>p{
+  .beef div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -66,10 +65,10 @@ h1{
   	text-align: center;
   	font-weight: bold;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
-  .sushi>p{
+  .sushi div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -79,25 +78,40 @@ h1{
   	font-weight: bold;
   	text-align: center;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
   article{
   	clear: both;
-  } */
+  }
 
-/* @media (min-width: 992px){
+@media (min-width: 992px){
   .chicken, .beef, .sushi{
     width: 33.33%;
-    border: 2px solid black;
-    background: #b1b0b0;
+    padding: 10px 20px;
+    background: #fff;
     float: left;
     position: relative;
   }
   .tmp-clear{
   	clear: both;
   }
-  .chicken>p{
+  .chicken>div{
+  	background: #b4b4b4;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+  .beef>div{
+  	background: #b4b4b4;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+  .sushi>div{
+  	background: #b4b4b4;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+   .chicken div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -107,10 +121,10 @@ h1{
   	text-align: center;
   	font-weight: bold;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
-  .beef>p{
+  .beef div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -120,10 +134,10 @@ h1{
   	text-align: center;
   	font-weight: bold;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
-  .sushi>p{
+  .sushi div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -133,36 +147,50 @@ h1{
   	font-weight: bold;
   	text-align: center;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
   article{
   	clear: both;
   }
 
-} */
+}
 
 /* medium query */
-/* @media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .chicken, .beef{
     width: 50%;
-    border: 2px solid black;
-    background: #b1b0b0;
+    padding: 10px 20px;
+    background: #fff;
     float: left;
     position: relative;
   }
   .sushi{
     width: 100%;
-    border: 2px solid black;
-    background: #b1b0b0;
+    padding: 10px 20px;
+    background: #fff;
     float: left;
     position: relative;
   }
   .tmp-clear{
-  	width: 100%;
   	clear: both;
   }
-  .chicken>p{
+  .chicken>div{
+  	background: #b4b4b4;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+  .beef>div{
+  	background: #b4b4b4;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+  .sushi>div{
+  	background: #b4b4b4;
+  	padding: 10px 20;
+  	border: 2px solid black;
+  }
+   .chicken div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -172,10 +200,10 @@ h1{
   	text-align: center;
   	font-weight: bold;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
-  .beef>p{
+  .beef div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -185,10 +213,10 @@ h1{
   	text-align: center;
   	font-weight: bold;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
-  .sushi>p{
+  .sushi div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -198,28 +226,43 @@ h1{
   	font-weight: bold;
   	text-align: center;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
   article{
   	clear: both;
   }
 	
-} */
+}
 
 /* small query */
-/* @media (max-width: 767px){
+@media (max-width: 767px){
   .chicken, .beef, .sushi{
     width: 100%;
-    border: 2px solid black;
-    background: #b1b0b0;
+    padding: 10px 20px;
+    background: #fff;
     float: left;
     position: relative;
   }
   .tmp-clear{
   	clear: both;
   }
-  .chicken>p{
+  .chicken>div{
+  	background: #b4b4b4;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+  .beef>div{
+  	background: #b4b4b4;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+  .sushi>div{
+  	background: #b4b4b4;
+  	padding: 10px;
+  	border: 2px solid black;
+  }
+   .chicken div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -229,10 +272,10 @@ h1{
   	text-align: center;
   	font-weight: bold;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
-  .beef>p{
+  .beef div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -242,10 +285,10 @@ h1{
   	text-align: center;
   	font-weight: bold;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
-  .sushi>p{
+  .sushi div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -255,11 +298,11 @@ h1{
   	font-weight: bold;
   	text-align: center;
   	position: relative;
-  	top: -6px;
-  	right: -6px;
+  	top: -11px;
+  	right: -11px;
   }
   article{
   	clear: both;
   }
 	
-} */
+}
