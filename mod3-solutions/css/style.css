@@ -24,25 +24,22 @@ h1{
     float: left;
     position: relative;
   }
-  .tmp-clear{
-  	clear: both;
-  }
-  .chicken>div{
+.chicken>div{
   	background: #b4b4b4;
   	padding: 10px;
   	border: 2px solid black;
-  }
-  .beef>div{
+}
+.beef>div{
   	background: #b4b4b4;
   	padding: 10px;
   	border: 2px solid black;
-  }
-  .sushi>div{
+}
+.sushi>div{
   	background: #b4b4b4;
   	padding: 10px;
   	border: 2px solid black;
-  }
-   .chicken div>p{
+}
+.chicken div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -54,8 +51,8 @@ h1{
   	position: relative;
   	top: -11px;
   	right: -11px;
-  }
-  .beef div>p{
+}
+.beef div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -67,8 +64,8 @@ h1{
   	position: relative;
   	top: -11px;
   	right: -11px;
-  }
-  .sushi div>p{
+}
+.sushi div>p{
   	width: 125px;
   	padding: 4px;
   	margin-bottom: 5px;
@@ -80,10 +77,10 @@ h1{
   	position: relative;
   	top: -11px;
   	right: -11px;
-  }
-  article{
+}
+article{
   	clear: both;
-  }
+}
 
 @media (min-width: 992px){
   .chicken, .beef, .sushi{
